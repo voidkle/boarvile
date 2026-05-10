@@ -1,8 +1,8 @@
-# NavyDark — Modern Dark Navy WordPress Theme
+# BoarVile — Modern Dark Navy WordPress Theme
 
-NavyDark is a modern WordPress theme built with a sleek dark navy aesthetic for startups, agencies, portfolios, SaaS products, and professional business websites.
+BoarVile is a modern WordPress theme built with a sleek dark navy aesthetic for startups, agencies, portfolios, SaaS products, and professional business websites.
 
-Designed with performance, responsiveness, and clean UI/UX in mind, NavyDark provides a smooth website building experience with full Elementor compatibility.
+Designed with performance, responsiveness, and clean UI/UX in mind, BoarVile provides a smooth website building experience with full Elementor compatibility.
 
 ---
 
@@ -75,7 +75,7 @@ You can customize the theme using:
 
 ## 🚀 Performance Focus
 
-NavyDark is built with:
+BoarVile is built with:
 - Minimal dependencies
 - Optimized assets
 - Clean rendering structure
