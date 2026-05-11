@@ -37,7 +37,8 @@ function aquacore_content_width() {
 add_action( 'after_setup_theme', 'aquacore_content_width', 0 );
 
 function aquacore_enqueue_assets() {
-    $ver = wp_get_theme()->get( 'Version' );
+    // $ver = wp_get_theme()->get( 'Version' );
+    $ver = time();
     $uri = get_template_directory_uri();
 
     wp_enqueue_style(
