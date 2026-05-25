@@ -1,0 +1,13 @@
+@import "tailwindcss";
+/* @plugin "daisyui"; */
+
+#site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: contents;
+}
+:root{
+  /* font-size: 0.95rem; */
+  font-weight: 500;
+}

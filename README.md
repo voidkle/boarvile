@@ -1,94 +1,16 @@
-# BoarVile — Modern Dark Navy WordPress Theme
+# React + Vite
 
-BoarVile is a modern WordPress theme built with a sleek dark navy aesthetic for startups, agencies, portfolios, SaaS products, and professional business websites.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Designed with performance, responsiveness, and clean UI/UX in mind, BoarVile provides a smooth website building experience with full Elementor compatibility.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## ✨ Features
+## React Compiler
 
-- 🎨 Modern Dark Navy Design
-- ⚡ Lightweight & Fast
-- 📱 Fully Responsive
-- 🧩 Elementor Compatible
-- 🔍 SEO Friendly
-- 🌙 Elegant Dark UI
-- 🛠 Easy Customization
-- 🚀 Optimized Performance
-- 📦 Clean & Maintainable Code
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## 📸 Perfect For
-
-- Startup Websites
-- Creative Agencies
-- Developer Portfolios
-- SaaS Landing Pages
-- Company Profiles
-- Tech Businesses
-- Personal Branding
-
----
-
-## 🧰 Requirements
-
-- WordPress 6.0+
-- PHP 8.1+
-- Elementor Plugin
-
----
-
-## 📦 Installation
-
-1. Download the theme ZIP file
-2. Open your WordPress dashboard
-3. Navigate to:
-   `Appearance > Themes > Add New`
-4. Upload the ZIP file
-5. Activate the theme
-6. Install Elementor
-7. Start building your website
-
----
-
-## 🔌 Recommended Plugins
-
-- Elementor
-- LiteSpeed Cache
-- Rank Math SEO
-- WPForms
-- Contact Form 7
-
----
-
-## ⚙️ Customization
-
-You can customize the theme using:
-- WordPress Customizer
-- Elementor Page Builder
-- Custom CSS
-- Theme Settings
-
----
-
-## 🚀 Performance Focus
-
-BoarVile is built with:
-- Minimal dependencies
-- Optimized assets
-- Clean rendering structure
-- Mobile-first responsiveness
-
----
-
-## 📄 License
-
-This project is licensed under the GPL License.
-
----
-
-## 👨‍💻 Author
-
-Developed for modern web experiences.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
