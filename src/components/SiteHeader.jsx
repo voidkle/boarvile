@@ -1,5 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 
+const logoImg = "https://i.imgur.com/fVlk83o.png"
+
 const wp = window.__WP__ || {
   site_url: '/',
   site_name: 'Advantage Marine',
@@ -169,9 +171,7 @@ export default function SiteHeader() {
             )} */}
             <div className="flex items-center gap-2">
                 <div className="flex">
-                  <div className="w-2 h-6 bg-[#f5b018] -skew-x-12 mr-1" />
-                  <div className="w-2 h-6 bg-[#0b396b] -skew-x-12 mr-1" />
-                  <div className="w-2 h-6 bg-[#8da1b9] -skew-x-12" />
+                  <img src={logoImg} alt="Logo" className="h-8 w-auto" />
                 </div>
                 <span className="text-lg font-bold text-[#0b396b] uppercase tracking-wide">
                   {wp.site_name}

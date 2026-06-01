@@ -1,4 +1,10 @@
 <?php get_header(); ?>
+<style>
+    .ams-prd-form-row br,
+    .ams-prd-form-group br {
+        display: none;
+    }
+</style>
 <main class="homepage">
     <section class="hero-section">
         <div class="video-background">
@@ -19,13 +25,27 @@
                             offshore.</p>
                     </div>
                     <div class="swiper-slide">
-                        <h1 class="hero-title">Excellence In <br><span class="highlight">Marine Safety</span></h1>
-                        <p class="hero-desc">Delivering world-class underwater inspection and specialized steel
-                            fabrication.</p>
+                        <h1 class="hero-title"><span class="highlight">Time-of-Flight</span> Diffraction</h1>
+                        <p class="hero-desc">High-resolution weld inspection using dual-probe diffraction for precise flaw detection and sizing.</p>
                     </div>
                     <div class="swiper-slide">
-                        <h1 class="hero-title">Commitment To <br><span class="highlight">Quality</span></h1>
-                        <p class="hero-desc">Best-in-class diving equipment combined with OGP/IMCA standard practices.
+                        <h1 class="hero-title">MARINE<span class="highlight"> / DIVING</span></h1>
+                        <p class="hero-desc">Comprehensive underwater inspection, maintenance and repair services executed by certified divers using IMCA-standard equipment and advanced technology.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <h1 class="hero-title">ROPE<span class="highlight"> ACCESS</span></h1>
+                        <p class="hero-desc">Safe and efficient access solutions for inspection, maintenance and repair works in elevated or confined areas, minimizing downtime and operational risk.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <h1 class="hero-title"><span class="highlight">UT-CS</span></h1>
+                        <p class="hero-desc">High-precision robotic scanning for pipeline integrity, real-time data, full 360° coverage, zero compromise.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <h1 class="hero-title"><span class="highlight">MFL</span></h1>
+                        <p class="hero-desc">Advanced inline inspection technology for accurate detection of corrosion, cracks, and metal loss.
                         </p>
                     </div>
                 </div>
@@ -116,7 +136,7 @@
 
             <div class="ams-abt-visuals">
                 <div class="ams-abt-image-wrapper">
-                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop" alt="AMS Office Building">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/homes/10-years.jpeg" alt="AMS Office Building">
                     
                     <div class="ams-abt-exp-badge">
                         <div class="ams-abt-exp-content">
@@ -146,7 +166,7 @@
                         
                         <div class="swiper-slide">
                             <div class="ams-all-card">
-                                <img src="https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=508&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Welding Service">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/homes/marine_dive.jpg" alt="Welding Service">
                                 
                                 <div class="ams-all-overlay">
                                     <div class="ams-all-frame">
@@ -159,7 +179,7 @@
 
                         <div class="swiper-slide">
                             <div class="ams-all-card">
-                                <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800&auto=format&fit=crop" alt="Inspection Service">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/homes/ndt.jpg" alt="Inspection Service">
                                 
                                 <div class="ams-all-overlay">
                                     <div class="ams-all-frame">
@@ -172,7 +192,7 @@
 
                         <div class="swiper-slide">
                             <div class="ams-all-card">
-                                <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop" alt="Ship Maintenance">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/homes/steel.jpg" alt="Ship Maintenance">
                                 
                                 <div class="ams-all-overlay">
                                     <div class="ams-all-frame">
@@ -185,7 +205,7 @@
 
                         <div class="swiper-slide">
                             <div class="ams-all-card">
-                                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop" alt="Other Services">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/homes/other_service.jpg" alt="Other Services">
                                 
                                 <div class="ams-all-overlay">
                                     <div class="ams-all-frame">
@@ -324,42 +344,13 @@
             <div class="ams-prd-overlap-wrapper">
                 
                 <div class="ams-prd-image-box">
-                    <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=1200&auto=format&fit=crop" alt="Marine Workers">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/homes/cf7.jpg" alt="Marine Workers">
                 </div>
 
                 <div class="ams-prd-form-box">
                     <span class="ams-prd-kicker">We Are Waiting</span>
                     <h3>Request A <span>Quote</span></h3>
-
-                    <form action="#" method="POST">
-                        <div class="ams-prd-form-row">
-                            <div>
-                                <label>First Name</label>
-                                <input type="text" placeholder="First Name" required>
-                            </div>
-                            <div>
-                                <label>Last Name</label>
-                                <input type="text" placeholder="Last Name" required>
-                            </div>
-                        </div>
-
-                        <div class="ams-prd-form-group">
-                            <label>Email <span>*</span></label>
-                            <input type="email" placeholder="Email Address" required>
-                        </div>
-
-                        <div class="ams-prd-form-group">
-                            <label>Subject</label>
-                            <input type="text" placeholder="Subject">
-                        </div>
-
-                        <div class="ams-prd-form-group">
-                            <label>Your Message <span>*</span></label>
-                            <textarea placeholder="Your Message" required></textarea>
-                        </div>
-
-                        <button type="submit" class="ams-prd-btn-submit">Submit Form</button>
-                    </form>
+                    <?php echo do_shortcode('[contact-form-7 id="516" title="Contact Form"]'); ?>
                 </div>
 
             </div>
@@ -587,7 +578,11 @@
                                 <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/ams-awards/SMEE1002023-removebg-preview-390x250.webp" alt="SME 100 Awards">
                             </div>
                         </div>
-
+                        <div class="swiper-slide">
+                            <div class="ams-awd-card">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/ams-awards/golden_bull_2020.png" alt="Golden Bull 2020">
+                            </div>
+                        </div>
                     </div>
                     <div class="swiper-pagination ams-awd-pagination"></div>
                 </div>

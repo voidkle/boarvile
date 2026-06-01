@@ -3,7 +3,7 @@ Theme Name: Aquacore
 Theme URI: https://advantagemarine.com.my/
 Author: Voidkle
 Description: Custom elementor-ready theme for Advantage Marine Services.
-Version: 1.2.0
+Version: 1.2.1
 Text Domain: aquacore
 */
 .homepage {
@@ -2519,6 +2519,7 @@ Text Domain: aquacore
     color: var(--ams-prj-text-muted);
     line-height: 1.7;
 }
+
 @media (max-width: 600px) {
     .ams-search__header {
         padding: 2.75rem 1rem 2rem;

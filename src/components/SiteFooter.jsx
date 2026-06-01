@@ -1,22 +1,22 @@
 const wp = window.__WP__ || { site_url: '/', site_name: 'Advantage Marine' }
 
 const galleryImages = [
-  'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=150',
-  'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=150',
-  'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=150',
-  'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80&w=150',
-  'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=150',
-  'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=150',
+  'https://i.imgur.com/znZcB5W.jpeg',
+  'https://i.imgur.com/69AzrKx.jpeg',
+  'https://i.imgur.com/4OlK5qu.jpeg',
+  'https://i.imgur.com/Ks1oTF4.jpeg',
+  'https://i.imgur.com/ug2zNp7.jpeg',
+  'https://i.imgur.com/mwsEGVY.jpeg'
 ]
 
 const quickLinks = [
   { label: 'Home',                 url: '/' },
-  { label: 'About Us',             url: '/about' },
+  { label: 'About Us',             url: '/about-us' },
   { label: 'Our Services',         url: '/services' },
   { label: 'Our Current Projects', url: '/projects' },
   { label: 'Latest News',          url: '/news' },
-  { label: 'Contact Us',           url: '/contact' },
-  { label: 'Company Profile',      url: '/company-profile' },
+  { label: 'Contact Us',           url: '/contact-us' },
+  { label: 'Company Profile',      url: 'https://www.advantagemarine.com.my/wp-content/uploads/2026/06/AMS-Company-Profile-2026.pdf' },
 ]
 
 const socials = [
@@ -28,9 +28,9 @@ const socials = [
 
 const bottomLinks = [
   { label: 'Home',                url: '/' },
-  { label: 'About Us',            url: '/about' },
-  { label: 'Contact Us',          url: '/contact' },
-  { label: 'Company Profile PDF', url: '/company-profile' },
+  { label: 'About Us',            url: '/about-us' },
+  { label: 'Contact Us',          url: '/contact-us' },
+  { label: 'Company Profile PDF', url: 'https://www.advantagemarine.com.my/wp-content/uploads/2026/06/AMS-Company-Profile-2026.pdf' },
   { label: 'News',                url: '/news' },
 ]
 
