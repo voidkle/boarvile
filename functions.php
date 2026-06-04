@@ -22,6 +22,13 @@ function theme_enqueue_assets(): void {
     );
 
     wp_enqueue_style(
+        'fontawesome',
+        'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css',
+        [],
+        '6.5.1'
+    );
+
+    wp_enqueue_style(
         'theme-style',
         get_template_directory_uri() . '/style.css',
         [],
